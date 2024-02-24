@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="responsive.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"><h1>AkashaYatra</h1></div>
+            <div class="right">
+                <button onclick="alert('Contact us by filling form given below!')">sign in</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="space" data-aos="fade-right">
+        <div> 
+          <h1>Embark on a journey beyond the stars</h1>
+          <p>Welcome to AkashaYatra, your gateway to the cosmos. Our mission is to provide you with the ultimate space travel experience.</p>
+          <button onclick="alert('Sign up for a exciting space journey!')">Get Started</button>
+        </div>
+    </div>
+    <hr>
+    <section class="cta" data-aos="fade-right">
+    <h2>Why Choose AkashaYatra?</h2>
+    <p>Experience weighlessness,space travel and exploration beyond Earth's atmosphere.</p>
+    <button onclick="alert('Sign up for a exciting space journey!')">Join Us</button>
+    </section>
+    <section class="features">
+        <div class="feature">
+          <img src="./assets/Zero-gravity experiences.jpg" alt="">
+          <h3>Zero-gravity experiences</h3>
+          <p>Opportunities to experience weightlessness and float freely in space.</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/Guided spacewalks.jpg" alt="">
+            <h3>Guided spacewalks</h3>
+            <p>Supervised excursions outside the spacecraft for a unique spacewalk experience.</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/Earth observation opportunities.jpg" alt="">
+            <h3>Earth observation opportunities</h3>
+            <p>Chance to observe Earth from space and capture stunning photographs.</p>
+        </div>
+    </section>
+    <hr>
+    <section class="schedule" >
+        <section class="schedule" data-aos="fade-right">
+        <h2> Schedule Of Educational lectures and seminars</h2>
+        <p>Check out our weekly lectures and seminars schedule and join us for a informative sessions on space exploration, astronomy, and related topics!</p>
+        <ul>
+          <li>Monday: Overview of space exploration history - 7:00 PM</li>
+          <li>Wednesday: Life in space: living conditions, health considerations, and daily routines - 8:00 PM</li>
+          <li>Friday: Space tourism industry trends and future developments- 9:00 PM</li>
+          <!-- Add more schedule items as needed -->
+        </ul>
+    </section>
+      <hr>
+    <section class="contact-form" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <br>
+    <p>Have questions or need assistance? Reach out to us!</p>
+    <br>
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+    <footer>
+    <p>&copy; 2024 AkashaYatra. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
